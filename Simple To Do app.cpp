@@ -13,7 +13,7 @@ void showTasks(const vector<string> &tasks)
     cout << "To Do List:" << endl;
     for (int i = 0; i < tasks.size(); i++)
     {
-        cout << i + 1 << ". " << tasks[i] << ", ";
+        cout << i + 1 << ". " << tasks[i] << endl;
     }
 }
 
